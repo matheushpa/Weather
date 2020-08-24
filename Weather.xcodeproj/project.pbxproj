@@ -9,12 +9,34 @@
 /* Begin PBXBuildFile section */
 		2F679F7824F17DB30044848C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679F7724F17DB30044848C /* AppDelegate.swift */; };
 		2F679F7A24F17DB30044848C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679F7924F17DB30044848C /* SceneDelegate.swift */; };
-		2F679F7C24F17DB30044848C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679F7B24F17DB30044848C /* ViewController.swift */; };
-		2F679F7F24F17DB30044848C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F679F7D24F17DB30044848C /* Main.storyboard */; };
 		2F679F8124F17DB90044848C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F679F8024F17DB90044848C /* Assets.xcassets */; };
 		2F679F8424F17DB90044848C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F679F8224F17DB90044848C /* LaunchScreen.storyboard */; };
 		2F679F8F24F17DBA0044848C /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679F8E24F17DBA0044848C /* WeatherTests.swift */; };
 		2F679F9A24F17DBA0044848C /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679F9924F17DBA0044848C /* WeatherUITests.swift */; };
+		2F679FA824F180D30044848C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FA724F180D20044848C /* MainTabBarController.swift */; };
+		2F679FA924F180D30044848C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FA724F180D20044848C /* MainTabBarController.swift */; };
+		2F679FAA24F180D30044848C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FA724F180D20044848C /* MainTabBarController.swift */; };
+		2F679FB024F181B50044848C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */; };
+		2F679FB124F181B50044848C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */; };
+		2F679FB224F181B50044848C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */; };
+		2F679FB324F181B50044848C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAE24F181B40044848C /* Montserrat-Light.ttf */; };
+		2F679FB424F181B50044848C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAE24F181B40044848C /* Montserrat-Light.ttf */; };
+		2F679FB524F181B50044848C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAE24F181B40044848C /* Montserrat-Light.ttf */; };
+		2F679FB624F181B50044848C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */; };
+		2F679FB724F181B50044848C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */; };
+		2F679FB824F181B50044848C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */; };
+		2F679FBD24F199410044848C /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FBC24F199410044848C /* ForecastViewController.swift */; };
+		2F679FBE24F199410044848C /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FBC24F199410044848C /* ForecastViewController.swift */; };
+		2F679FBF24F199410044848C /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FBC24F199410044848C /* ForecastViewController.swift */; };
+		2F679FC124F199510044848C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC024F199510044848C /* TodayViewController.swift */; };
+		2F679FC224F199510044848C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC024F199510044848C /* TodayViewController.swift */; };
+		2F679FC324F199510044848C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC024F199510044848C /* TodayViewController.swift */; };
+		2F679FC524F199620044848C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC424F199620044848C /* BaseViewController.swift */; };
+		2F679FC624F199620044848C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC424F199620044848C /* BaseViewController.swift */; };
+		2F679FC724F199620044848C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC424F199620044848C /* BaseViewController.swift */; };
+		2F679FCA24F19BA00044848C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC924F19BA00044848C /* Constants.swift */; };
+		2F679FCB24F19BA00044848C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC924F19BA00044848C /* Constants.swift */; };
+		2F679FCC24F19BA00044848C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC924F19BA00044848C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +60,6 @@
 		2F679F7424F17DB30044848C /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F679F7724F17DB30044848C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F679F7924F17DB30044848C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F679F7B24F17DB30044848C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F679F7E24F17DB30044848C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F679F8024F17DB90044848C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F679F8324F17DB90044848C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F679F8524F17DB90044848C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +69,14 @@
 		2F679F9524F17DBA0044848C /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F679F9924F17DBA0044848C /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		2F679F9B24F17DBA0044848C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F679FA724F180D20044848C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		2F679FAE24F181B40044848C /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		2F679FBC24F199410044848C /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		2F679FC024F199510044848C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2F679FC424F199620044848C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2F679FC924F19BA00044848C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +129,10 @@
 			children = (
 				2F679F7724F17DB30044848C /* AppDelegate.swift */,
 				2F679F7924F17DB30044848C /* SceneDelegate.swift */,
-				2F679F7B24F17DB30044848C /* ViewController.swift */,
-				2F679F7D24F17DB30044848C /* Main.storyboard */,
-				2F679F8024F17DB90044848C /* Assets.xcassets */,
-				2F679F8224F17DB90044848C /* LaunchScreen.storyboard */,
 				2F679F8524F17DB90044848C /* Info.plist */,
+				2F679FAC24F181730044848C /* resources */,
+				2F679FC824F19B840044848C /* utils */,
+				2F679FAB24F180D90044848C /* view-controllers */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -126,6 +153,61 @@
 				2F679F9B24F17DBA0044848C /* Info.plist */,
 			);
 			path = WeatherUITests;
+			sourceTree = "<group>";
+		};
+		2F679FAB24F180D90044848C /* view-controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F679FC424F199620044848C /* BaseViewController.swift */,
+				2F679FA724F180D20044848C /* MainTabBarController.swift */,
+				2F679FBB24F196810044848C /* forecast */,
+				2F679FBA24F196760044848C /* today */,
+			);
+			path = "view-controllers";
+			sourceTree = "<group>";
+		};
+		2F679FAC24F181730044848C /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F679F8024F17DB90044848C /* Assets.xcassets */,
+				2F679F8224F17DB90044848C /* LaunchScreen.storyboard */,
+				2F679FB924F181B90044848C /* fonts */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		2F679FB924F181B90044848C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2F679FAE24F181B40044848C /* Montserrat-Light.ttf */,
+				2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */,
+				2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		2F679FBA24F196760044848C /* today */ = {
+			isa = PBXGroup;
+			children = (
+				2F679FC024F199510044848C /* TodayViewController.swift */,
+			);
+			path = today;
+			sourceTree = "<group>";
+		};
+		2F679FBB24F196810044848C /* forecast */ = {
+			isa = PBXGroup;
+			children = (
+				2F679FBC24F199410044848C /* ForecastViewController.swift */,
+			);
+			path = forecast;
+			sourceTree = "<group>";
+		};
+		2F679FC824F19B840044848C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2F679FC924F19BA00044848C /* Constants.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +314,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F679FB324F181B50044848C /* Montserrat-Light.ttf in Resources */,
+				2F679FB624F181B50044848C /* Montserrat-Medium.ttf in Resources */,
+				2F679FB024F181B50044848C /* Montserrat-SemiBold.ttf in Resources */,
 				2F679F8424F17DB90044848C /* LaunchScreen.storyboard in Resources */,
 				2F679F8124F17DB90044848C /* Assets.xcassets in Resources */,
-				2F679F7F24F17DB30044848C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F679FB424F181B50044848C /* Montserrat-Light.ttf in Resources */,
+				2F679FB724F181B50044848C /* Montserrat-Medium.ttf in Resources */,
+				2F679FB124F181B50044848C /* Montserrat-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +336,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F679FB524F181B50044848C /* Montserrat-Light.ttf in Resources */,
+				2F679FB824F181B50044848C /* Montserrat-Medium.ttf in Resources */,
+				2F679FB224F181B50044848C /* Montserrat-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F679F7C24F17DB30044848C /* ViewController.swift in Sources */,
 				2F679F7824F17DB30044848C /* AppDelegate.swift in Sources */,
+				2F679FBD24F199410044848C /* ForecastViewController.swift in Sources */,
+				2F679FC124F199510044848C /* TodayViewController.swift in Sources */,
 				2F679F7A24F17DB30044848C /* SceneDelegate.swift in Sources */,
+				2F679FCA24F19BA00044848C /* Constants.swift in Sources */,
+				2F679FA824F180D30044848C /* MainTabBarController.swift in Sources */,
+				2F679FC524F199620044848C /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +363,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F679FC624F199620044848C /* BaseViewController.swift in Sources */,
+				2F679FC224F199510044848C /* TodayViewController.swift in Sources */,
+				2F679FA924F180D30044848C /* MainTabBarController.swift in Sources */,
 				2F679F8F24F17DBA0044848C /* WeatherTests.swift in Sources */,
+				2F679FBE24F199410044848C /* ForecastViewController.swift in Sources */,
+				2F679FCB24F19BA00044848C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +376,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F679FC724F199620044848C /* BaseViewController.swift in Sources */,
+				2F679FC324F199510044848C /* TodayViewController.swift in Sources */,
+				2F679FAA24F180D30044848C /* MainTabBarController.swift in Sources */,
 				2F679F9A24F17DBA0044848C /* WeatherUITests.swift in Sources */,
+				2F679FBF24F199410044848C /* ForecastViewController.swift in Sources */,
+				2F679FCC24F19BA00044848C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2F679F7D24F17DB30044848C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F679F7E24F17DB30044848C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2F679F8224F17DB90044848C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
