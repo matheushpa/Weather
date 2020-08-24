@@ -18,6 +18,9 @@ class MainTabBarController: UITabBarController {
     
     // MARK: - Setup methods
     func setupTabBarViews() {
+        
+        // TODO: - tabbar buttons image size
+        
         let firstViewController = UINavigationController(rootViewController: TodayViewController())
         let firstTabBarItem = UITabBarItem(title: kToday,
                                            image: UIImage(named: "Clear Sky (Day)"),
@@ -33,7 +36,7 @@ class MainTabBarController: UITabBarController {
     
     func setupTabBarLayout() {
         UITabBar.appearance().barTintColor = .white
-        UITabBar.appearance().tintColor = .blue //UIColor.init(netHex: kPurpleDefaultColor)
+        UITabBar.appearance().tintColor = .blue
         UITabBar.appearance().unselectedItemTintColor = .black
     }
 }

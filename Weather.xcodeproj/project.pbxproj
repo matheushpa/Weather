@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3AE0CE24F43214004A5015 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0CD24F43214004A5015 /* UIView+Extensions.swift */; };
+		2F3AE0CF24F43214004A5015 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0CD24F43214004A5015 /* UIView+Extensions.swift */; };
+		2F3AE0D024F43214004A5015 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0CD24F43214004A5015 /* UIView+Extensions.swift */; };
+		2F3AE0D224F43324004A5015 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0D124F43324004A5015 /* UILabel+Extensions.swift */; };
+		2F3AE0D324F43324004A5015 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0D124F43324004A5015 /* UILabel+Extensions.swift */; };
+		2F3AE0D424F43324004A5015 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0D124F43324004A5015 /* UILabel+Extensions.swift */; };
+		2F3AE0D624F43339004A5015 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0D524F43339004A5015 /* UIImageView+Extensions.swift */; };
+		2F3AE0D724F43339004A5015 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0D524F43339004A5015 /* UIImageView+Extensions.swift */; };
+		2F3AE0D824F43339004A5015 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AE0D524F43339004A5015 /* UIImageView+Extensions.swift */; };
+		2F3AE0D924F43D41004A5015 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAE24F181B40044848C /* Montserrat-Light.ttf */; };
+		2F3AE0DA24F43D41004A5015 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */; };
+		2F3AE0DB24F43D41004A5015 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */; };
 		2F679F7824F17DB30044848C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679F7724F17DB30044848C /* AppDelegate.swift */; };
 		2F679F7A24F17DB30044848C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679F7924F17DB30044848C /* SceneDelegate.swift */; };
 		2F679F8124F17DB90044848C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F679F8024F17DB90044848C /* Assets.xcassets */; };
@@ -16,13 +28,10 @@
 		2F679FA824F180D30044848C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FA724F180D20044848C /* MainTabBarController.swift */; };
 		2F679FA924F180D30044848C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FA724F180D20044848C /* MainTabBarController.swift */; };
 		2F679FAA24F180D30044848C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FA724F180D20044848C /* MainTabBarController.swift */; };
-		2F679FB024F181B50044848C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */; };
 		2F679FB124F181B50044848C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */; };
 		2F679FB224F181B50044848C /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAD24F181B40044848C /* Montserrat-SemiBold.ttf */; };
-		2F679FB324F181B50044848C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAE24F181B40044848C /* Montserrat-Light.ttf */; };
 		2F679FB424F181B50044848C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAE24F181B40044848C /* Montserrat-Light.ttf */; };
 		2F679FB524F181B50044848C /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAE24F181B40044848C /* Montserrat-Light.ttf */; };
-		2F679FB624F181B50044848C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */; };
 		2F679FB724F181B50044848C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */; };
 		2F679FB824F181B50044848C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F679FAF24F181B50044848C /* Montserrat-Medium.ttf */; };
 		2F679FBD24F199410044848C /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FBC24F199410044848C /* ForecastViewController.swift */; };
@@ -37,6 +46,12 @@
 		2F679FCA24F19BA00044848C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC924F19BA00044848C /* Constants.swift */; };
 		2F679FCB24F19BA00044848C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC924F19BA00044848C /* Constants.swift */; };
 		2F679FCC24F19BA00044848C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F679FC924F19BA00044848C /* Constants.swift */; };
+		2FF5AA6E24F1AAF100156222 /* ForecastHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5AA6D24F1AAF100156222 /* ForecastHeader.swift */; };
+		2FF5AA6F24F1AAF100156222 /* ForecastHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5AA6D24F1AAF100156222 /* ForecastHeader.swift */; };
+		2FF5AA7024F1AAF100156222 /* ForecastHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5AA6D24F1AAF100156222 /* ForecastHeader.swift */; };
+		2FF5AA7224F1AB0900156222 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5AA7124F1AB0900156222 /* ForecastTableViewCell.swift */; };
+		2FF5AA7324F1AB0900156222 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5AA7124F1AB0900156222 /* ForecastTableViewCell.swift */; };
+		2FF5AA7424F1AB0900156222 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5AA7124F1AB0900156222 /* ForecastTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3AE0CD24F43214004A5015 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		2F3AE0D124F43324004A5015 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		2F3AE0D524F43339004A5015 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		2F679F7424F17DB30044848C /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F679F7724F17DB30044848C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F679F7924F17DB30044848C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +95,8 @@
 		2F679FC024F199510044848C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		2F679FC424F199620044848C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2F679FC924F19BA00044848C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2FF5AA6D24F1AAF100156222 /* ForecastHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastHeader.swift; sourceTree = "<group>"; };
+		2FF5AA7124F1AB0900156222 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +217,9 @@
 		2F679FBB24F196810044848C /* forecast */ = {
 			isa = PBXGroup;
 			children = (
+				2FF5AA6D24F1AAF100156222 /* ForecastHeader.swift */,
 				2F679FBC24F199410044848C /* ForecastViewController.swift */,
+				2FF5AA7124F1AB0900156222 /* ForecastTableViewCell.swift */,
 			);
 			path = forecast;
 			sourceTree = "<group>";
@@ -206,6 +228,9 @@
 			isa = PBXGroup;
 			children = (
 				2F679FC924F19BA00044848C /* Constants.swift */,
+				2F3AE0CD24F43214004A5015 /* UIView+Extensions.swift */,
+				2F3AE0D124F43324004A5015 /* UILabel+Extensions.swift */,
+				2F3AE0D524F43339004A5015 /* UIImageView+Extensions.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -314,9 +339,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F679FB324F181B50044848C /* Montserrat-Light.ttf in Resources */,
-				2F679FB624F181B50044848C /* Montserrat-Medium.ttf in Resources */,
-				2F679FB024F181B50044848C /* Montserrat-SemiBold.ttf in Resources */,
+				2F3AE0D924F43D41004A5015 /* Montserrat-Light.ttf in Resources */,
+				2F3AE0DA24F43D41004A5015 /* Montserrat-Medium.ttf in Resources */,
+				2F3AE0DB24F43D41004A5015 /* Montserrat-SemiBold.ttf in Resources */,
 				2F679F8424F17DB90044848C /* LaunchScreen.storyboard in Resources */,
 				2F679F8124F17DB90044848C /* Assets.xcassets in Resources */,
 			);
@@ -351,11 +376,16 @@
 			files = (
 				2F679F7824F17DB30044848C /* AppDelegate.swift in Sources */,
 				2F679FBD24F199410044848C /* ForecastViewController.swift in Sources */,
+				2F3AE0D224F43324004A5015 /* UILabel+Extensions.swift in Sources */,
+				2F3AE0CE24F43214004A5015 /* UIView+Extensions.swift in Sources */,
 				2F679FC124F199510044848C /* TodayViewController.swift in Sources */,
 				2F679F7A24F17DB30044848C /* SceneDelegate.swift in Sources */,
+				2F3AE0D624F43339004A5015 /* UIImageView+Extensions.swift in Sources */,
 				2F679FCA24F19BA00044848C /* Constants.swift in Sources */,
 				2F679FA824F180D30044848C /* MainTabBarController.swift in Sources */,
+				2FF5AA7224F1AB0900156222 /* ForecastTableViewCell.swift in Sources */,
 				2F679FC524F199620044848C /* BaseViewController.swift in Sources */,
+				2FF5AA6E24F1AAF100156222 /* ForecastHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +393,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF5AA7324F1AB0900156222 /* ForecastTableViewCell.swift in Sources */,
 				2F679FC624F199620044848C /* BaseViewController.swift in Sources */,
+				2F3AE0D724F43339004A5015 /* UIImageView+Extensions.swift in Sources */,
 				2F679FC224F199510044848C /* TodayViewController.swift in Sources */,
+				2F3AE0CF24F43214004A5015 /* UIView+Extensions.swift in Sources */,
 				2F679FA924F180D30044848C /* MainTabBarController.swift in Sources */,
 				2F679F8F24F17DBA0044848C /* WeatherTests.swift in Sources */,
+				2F3AE0D324F43324004A5015 /* UILabel+Extensions.swift in Sources */,
 				2F679FBE24F199410044848C /* ForecastViewController.swift in Sources */,
 				2F679FCB24F19BA00044848C /* Constants.swift in Sources */,
+				2FF5AA6F24F1AAF100156222 /* ForecastHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +411,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF5AA7424F1AB0900156222 /* ForecastTableViewCell.swift in Sources */,
 				2F679FC724F199620044848C /* BaseViewController.swift in Sources */,
+				2F3AE0D824F43339004A5015 /* UIImageView+Extensions.swift in Sources */,
 				2F679FC324F199510044848C /* TodayViewController.swift in Sources */,
+				2F3AE0D024F43214004A5015 /* UIView+Extensions.swift in Sources */,
 				2F679FAA24F180D30044848C /* MainTabBarController.swift in Sources */,
 				2F679F9A24F17DBA0044848C /* WeatherUITests.swift in Sources */,
+				2F3AE0D424F43324004A5015 /* UILabel+Extensions.swift in Sources */,
 				2F679FBF24F199410044848C /* ForecastViewController.swift in Sources */,
 				2F679FCC24F19BA00044848C /* Constants.swift in Sources */,
+				2FF5AA7024F1AAF100156222 /* ForecastHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
