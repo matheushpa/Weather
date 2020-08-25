@@ -13,10 +13,14 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        setupNavigationBar()
+    }
+    
+    // MARK: - Setup Navigation Bar
+    
+    private func setupNavigationBar() {
         navigationController?.navigationBar.barTintColor = .white
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.shadowImage = UIImage(named: "Line")
-        
-        // TODO: - shadow image insets/content mode?
     }
 }

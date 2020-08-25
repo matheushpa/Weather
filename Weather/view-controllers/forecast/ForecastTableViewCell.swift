@@ -21,7 +21,7 @@ class ForecastTableViewCell: UITableViewCell {
         let label = UILabel()
         label.configureLabel(fontName: kLight,
                              fontSize: 48,
-                             color: .blue)
+                             color: UIColor.init(netHex: kBlueColor))
         return label
     }()
     
@@ -58,16 +58,17 @@ class ForecastTableViewCell: UITableViewCell {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        fatalError("init(coder:) has not been implemented")
     }
     
     // MARK: - Setup methods
     
-    func setupViews() {
+    private func setupViews() {
         stackView.addArrangedSubviews(timeLabel, weatherLabel)
         contentView.addSubviews(weatherImageView, stackView, temperatureLabel)
     }
     
-    func setupConstraints() {
+    private func setupConstraints() {
         weatherImageView.addLeadingConstraint(constant: 16)
         weatherImageView.addConstraintToCenterVertically()
         

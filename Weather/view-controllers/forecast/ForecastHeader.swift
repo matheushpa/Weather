@@ -22,13 +22,13 @@ class ForecastHeader: UITableViewHeaderFooterView {
     // TODO: - Reuse those line views
     private lazy var topLightGrayView: UIView = {
         let view = UIView(frame: .zero)
-        view.configureView(backgroundColor: .gray)
+        view.configureView(backgroundColor: UIColor.init(netHex: kSeparatorColor))
         return view
     }()
     
     private lazy var bottomLightGrayView: UIView = {
         let view = UIView(frame: .zero)
-        view.configureView(backgroundColor: .gray)
+        view.configureView(backgroundColor: UIColor.init(netHex: kSeparatorColor))
         return view
     }()
     
@@ -40,11 +40,12 @@ class ForecastHeader: UITableViewHeaderFooterView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        fatalError("init(coder:) has not been implemented")
     }
     
     // MARK: - Setup methods
     
-    func setupTitle() {
+    private func setupTitle() {
         self.addSubviews(currentDayLabel, topLightGrayView, bottomLightGrayView)
         currentDayLabel.addConstraintToCenterVertically()
         currentDayLabel.addLeadingConstraint(constant: 16)

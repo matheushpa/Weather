@@ -17,26 +17,24 @@ class MainTabBarController: UITabBarController {
     }
     
     // MARK: - Setup methods
-    func setupTabBarViews() {
-        
-        // TODO: - tabbar buttons image size
-        
+    
+    private func setupTabBarViews() {
         let firstViewController = UINavigationController(rootViewController: TodayViewController())
         let firstTabBarItem = UITabBarItem(title: kToday,
-                                           image: UIImage(named: "Clear Sky (Day)"),
-                                           selectedImage: UIImage(named: "Clear Sky (Day)"))
+                                           image: UIImage(named: "Today Active (Tab)"),
+                                           selectedImage: UIImage(named: "Today Inactive (Tab)"))
         firstViewController.tabBarItem = firstTabBarItem
         let secondViewController = UINavigationController(rootViewController: ForecastViewController())
         let secondTabBarItem = UITabBarItem(title: kForecast,
-                                            image: UIImage(named: "Clear Sky (Day)"),
-                                            selectedImage: UIImage(named: "Clear Sky (Day)"))
+                                            image: UIImage(named: "Forecast Active (Tab)"),
+                                            selectedImage: UIImage(named: "Forecast Inactive (Tab)"))
         secondViewController.tabBarItem = secondTabBarItem
         self.viewControllers = [firstViewController, secondViewController]
     }
     
-    func setupTabBarLayout() {
-        UITabBar.appearance().barTintColor = .white
-        UITabBar.appearance().tintColor = .blue
-        UITabBar.appearance().unselectedItemTintColor = .black
+    private func setupTabBarLayout() {
+        self.tabBar.barTintColor = .white
+        self.tabBar.unselectedItemTintColor = UIColor.init(netHex: kUnselectedItemTabBarColor)
+        self.tabBar.isTranslucent = false
     }
 }

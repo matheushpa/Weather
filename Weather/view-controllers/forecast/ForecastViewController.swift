@@ -14,7 +14,7 @@ class ForecastViewController: BaseViewController {
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
-        tableView.separatorColor = .gray
+        tableView.separatorColor = UIColor.init(netHex: kSeparatorColor)
         tableView.separatorInset = UIEdgeInsets(top: 0, left: 92, bottom: 0, right: 0)
         tableView.delegate = self
         tableView.dataSource = self
@@ -32,7 +32,7 @@ class ForecastViewController: BaseViewController {
     
     // MARK: - Setup methods
     
-    func setupTableView() {
+    private func setupTableView() {
         view.addSubview(tableView)
         tableView.addLeadingConstraint()
         tableView.addTrailingConstraint()

@@ -10,6 +10,7 @@
 
 let kToday = "Today"
 let kForecast = "Forecast"
+let kShare = "Share"
 
 // MARK: - UITableView identifiers
 
@@ -17,6 +18,10 @@ let kForecastCellIdentifier = "forecastCellIdentifier"
 let kForecastHeaderIdentifier = "forecastHeaderIdentifier"
 
 // MARK: - Colors
+
+let kSeparatorColor = 0xDEDEDE
+let kBlueColor = 0x2F90FF
+let kUnselectedItemTabBarColor = 0x444444
 
 // MARK: - Fonts
 
